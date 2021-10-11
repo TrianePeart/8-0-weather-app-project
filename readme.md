@@ -72,9 +72,9 @@ After searching, your page should look similar to the screenshot below.
 
 In particular, make sure to include the following:
 
-- [ ] The main section of the page should be filled in with relevant information received from the API. (More detailed information below.)
-- [ ] Three sections below the main section should show information for the next few days.
-- [ ] CSS Grid should be used throughout to structure the page.
+- [X] The main section of the page should be filled in with relevant information received from the API. (More detailed information below.)
+- [X ] Three sections below the main section should show information for the next few days.
+- [X] CSS Grid should be used throughout to structure the page.
 - [ ] The sidebar retains a link to the search.
 
 #### Multiple Searches
@@ -88,14 +88,14 @@ After multiple searches, the sidebar will continue to fill up with more searches
 The following features are required for your application. These features detail what is needed to pass the tests.
 
 - When a user arrives at the page, they should:
-  - [ ] See an `h1` with the text "Weather App" in the header.
-  - [ ] See a form in the header that includes both a text and submit input.
-  - [ ] See a `.display` element on the left side of the page, that suggests that they make a search.
+  - [X] See an `h1` with the text "Weather App" in the header.
+  - [X] See a form in the header that includes both a text and submit input.
+  - [X] See a `.display` element on the left side of the page, that suggests that they make a search.
   - [ ] See a `.history` element on the right side of the page, that includes the text "Previous Searches".
 - When a user enters text into the search form and presses submit, they should:
-  - [ ] See the text disappear from the search bar.
-  - [ ] See the name of the city that was searched as well as the area, region, country, and currently "feels like" temperature for that location.
-  - [ ] See detailed information for the current day and the next two days below the main `.display` element.
+  - [X] See the text disappear from the search bar.
+  - [X] See the name of the city that was searched as well as the area, region, country, and currently "feels like" temperature for that location.
+  - [X] See detailed information for the current day and the next two days below the main `.display` element.
   - [ ] See the city name and "feels like" temperature show up in the `.history` element.
 - If another search is made, the user should:
   - [ ] See the main `.display` element change to account for the new city, updating all relevant information.
