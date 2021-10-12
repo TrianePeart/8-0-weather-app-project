@@ -67,8 +67,7 @@ function fetchWeather(city){
 
     form.addEventListener("submit", (event) => {
         event.preventDefault();
-        let city = form.search.value
-        let userInput= city[0].toUpperCase() + city.slice(1)
+        let userInput= form.search.value
         fetchWeather(userInput).then((obj) => {
             displayUpdate(obj, userInput)
             updateHistory(obj, userInput)
