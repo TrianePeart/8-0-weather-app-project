@@ -24,7 +24,7 @@ header{
     opacity: 0.5;
     box-shadow: 0 2px 10px 1px black;
     height: 150px;
-    grid-area: 2 / 2 / span 2 / span 3;;
+    grid-area: 2 / 2 / span 2 / span 3;
 }
 label {
     color: black;
@@ -35,6 +35,7 @@ h1 {
     color: black;
     font-family: Georgia;
     font-size: 25px;
+    text-shadow: 2px 2px white;
 }
 
 h3{
@@ -49,6 +50,7 @@ p{
     font-family: Georgia;
     font-weight: lighter;
     font-size: 15px;
+    
 }
 
 aside {
@@ -61,7 +63,17 @@ aside {
     font-size: 18px;
     font-weight: normal;
     text-transform: capitalize;
+    color:rgb(224, 224, 235)
     }
+
+.button {
+  border-radius: 20px;
+  background: var(--color-blueish);
+  font-family: Georgia;
+  font-weight: bolder;
+  text-shadow: 2px 2px white;
+  box-shadow: 0 2px 10px 1px black;
+}  
     
 .view {
     background-color: rgb(224, 224, 235);
@@ -85,12 +97,10 @@ grid-column: 2 / 5;
     text-align: center;
     column-gap: 10px;
     row-gap: 10px;
+    color:rgb(224, 224, 235)
     
 }
         
-.this {
-display: none;
-}  
 
 
 
@@ -107,7 +117,10 @@ footer{
     height: 55px;
     text-align: center;
     opacity: .7; 
+
+   
 }
+
 
 
 @media (min-width:768px) and (max-width:1279px) {

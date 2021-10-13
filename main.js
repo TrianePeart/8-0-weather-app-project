@@ -65,6 +65,7 @@ function fetchWeather(city){
     }
 
 
+
     form.addEventListener("submit", (event) => {
         event.preventDefault();
         let userInput= form.search.value
